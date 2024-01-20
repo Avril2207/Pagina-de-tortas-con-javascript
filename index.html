@@ -28,18 +28,19 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+        <nav class="navbar">
+            <div class="container>
               <a class="navbar-brand" href="index.html"><img src="img/panadería-y-postre-logo-pastelería-dulce-tienda-signo-plano-diseño-vector-plantilla-214052989-removebg-preview.png" alt="ícono" width="100" height="80"></a>
             </div>
           </nav>
     </header>
+    
     <!-- SECTION -->
     <section>
       <div class="image"><img src="./img/foto carrusel.jpg" alt="Foto torta de chocolate" width="1277" height="770"></div>
-      <div class="container mt-4">
-        <div class="row">
-          <div class="sobre mi col-md-7 mt-5">
+      <div class="container">
+        <div class="texto_y_foto">
+          <div class="sobre_mi">
             <h1 class="title">¿QUIÉNES SOMOS?</h1>
             <p class="text">
               ¡Bienvenidos a Dulces Delicias! Soy Andrea, la creadora de este rincón lleno de dulzura. 
@@ -49,14 +50,15 @@
                que cada día sea un festín de sabores inolvidables!
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="foto_texto">
             <img src="img/Tarta de queso tres chocolates 5º Aniversario del blog.jpg" alt="foto torta" width="70%" />
           </div>
         </div>
       </div>
+
       <!-- PRODUCTOS -->
-      <section class="my-5 pb-5">
-        <div class="container">
+      <section class="productos">
+        <div class="container_productos">
           <div class="card" style="width: 18rem;">
             <img src="./img/torta láminas de chocolate bicolor.jpg" class="card-img-top" alt="torta láminas de chocolate bicolor">
             <div class="card-body">
@@ -64,8 +66,8 @@
               <p class="card-text">Torta Láminas de Chocolate Bicolor</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./img/tarta de frutos rojos.jpg" class="card-img-top" alt="tarta de frutos rojos">
+          <div class="card" id="img_agrandar" style="width: 19rem;">
+            <img src="./img/tarta de frutos rojos.jpg" class="card-img-top"  alt="tarta de frutos rojos">
             <div class="card-body">
               <h1 class="card-price">$45</h1>
               <p class="card-text">Tarta de Frutos Rojos</p>
@@ -85,7 +87,7 @@
               <p class="card-text">Brownie de Chocolate</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card" id="img_ajuste" style="width: 18rem;">
             <img src="./img/Torta Red Velvet Con crema queso.jpg" class="card-img-top" alt="arta Red Velvet con Crema de Queso">
             <div class="card-body">
               <h1 class="card-price">$70</h1>
@@ -97,6 +99,27 @@
             <div class="card-body">
               <h1 class="card-price">$70</h1>
               <p class="card-text">Pasta Frola</p>
+            </div>
+          </div>
+          <div class="card" id="img_agrandar" style="width: 19rem;">
+            <img src="./img/Carrot Cake.jpg" class="card-img-top" alt="Carrot Cake">
+            <div class="card-body">
+              <h1 class="card-price">$75</h1>
+              <p class="card-text">Carrot Cake</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/cookie.jpg" class="card-img-top" alt="Cookies con Chispas de chocolate">
+            <div class="card-body">
+              <h1 class="card-price">$20</h1>
+              <p class="card-text">Cookies con Chispas</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/Cupecakes.jpg" class="card-img-top" alt="Cupecakes de oreo">
+            <div class="card-body">
+              <h1 class="card-price">$50</h1>
+              <p class="card-text">Cupecakes de Oreo</p>
             </div>
           </div>
         </div>
@@ -119,8 +142,10 @@
           ></a>
         </div>
       </div>
+      
+      <!-- FOOTER -->
       <div class="footer-copyright">
-        ©Copyrigth 2023 | Dulces Delicias | Creado por AvrilAO
+        ©Copyrigth 2024 | Dulces Delicias | Creado por AvrilAO
       </div>
     </footer>
     <script
